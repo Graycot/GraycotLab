@@ -6,15 +6,15 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
-  url: 'https://your-docusaurus-test-site.com',
+  title: 'Graycot-Lab',
+  tagline: 'Documentation and Blog',
+  url: 'https://graycot.com/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'Graycot', // Usually your GitHub org/user name.
+  projectName: 'GraycotLab', // Usually your repo name.
 
   presets: [
     [
@@ -43,9 +43,9 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'My Site',
+        title: 'Graycot-Lab',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'Graycot Logo',
           src: 'img/logo.svg',
         },
         items: [
@@ -57,8 +57,13 @@ const config = {
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/Graycot/GraycotLab',
             label: 'GitHub',
+            position: 'right',
+          },
+          {
+            href: 'https://discord.gg/JM34yvMaFP',
+            label: 'Discord',
             position: 'right',
           },
         ],
@@ -76,19 +81,19 @@ const config = {
             ],
           },
           {
-            title: 'Community',
+            title: 'Social',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'Personal Site',
+                href: 'https://graystea.neocities.org',
               },
               {
                 label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                href: 'https://discord.gg/JM34yvMaFP',
               },
               {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                label: 'Mastodon',
+                href: 'https://fosstodon.org/@Graycot',
               },
             ],
           },
@@ -101,12 +106,12 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/Graycot/GraycotLab',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyleft 🄯  ${new Date().getFullYear()} GGraycot@gmail.com`,
       },
       prism: {
         theme: lightCodeTheme,
@@ -116,3 +121,9 @@ const config = {
 };
 
 module.exports = config;
+
+module.exports = {
+  url: 'https://graycot.com', // Url to your site with no trailing slash
+  baseUrl: '/', // Base directory of your site relative to your repo
+  // ...
+};
