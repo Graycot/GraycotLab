@@ -43,9 +43,9 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'My Site',
+        title: 'Graycot Lab',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'Graycot Lab Logo',
           src: 'img/logo.svg',
         },
         items: [
@@ -53,12 +53,17 @@ const config = {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Documentation',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/Graycot/GraycotLab',
             label: 'GitHub',
+            position: 'right',
+          },
+          {
+            href: 'https://discord.gg/JM34yvMaFP',
+            label: 'Discord',
             position: 'right',
           },
         ],
@@ -70,25 +75,25 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
+                label: 'Documentation',
                 to: '/docs/intro',
               },
             ],
           },
           {
-            title: 'Community',
+            title: 'Social',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'Personal Site',
+                href: 'https://graystea.neocities.org',
               },
               {
                 label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                href: 'https://discord.gg/JM34yvMaFP',
               },
               {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                label: 'Mastodon',
+                href: 'https://fosstodon.org/@Graycot',
               },
             ],
           },
@@ -101,7 +106,7 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/Graycot/GraycotLab',
               },
             ],
           },
