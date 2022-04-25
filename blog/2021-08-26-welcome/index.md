@@ -1,25 +1,12 @@
 ---
 slug: welcome
-title: Welcome
-authors: [slorber, yangshun]
-tags: [facebook, hello, docusaurus]
+title: Welcome to my blog!
+authors: [gray]
+tags: [Gray, Init-post, blog, meta]
 ---
 
-[Docusaurus blogging features](https://docusaurus.io/docs/blog) are powered by the [blog plugin](https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-content-blog).
+[This is the first post](/blog/welcome) of the blog!
 
-Simply add Markdown files (or folders) to the `blog` directory.
+Now would be a great time for me to declare a manifesto, but I simply do not have one. Other than bringing back the indie web and sticking to FOSS, there is little in terms of online activism in my life.
 
-Regular blog authors can be added to `authors.yml`.
-
-The blog post date can be extracted from filenames, such as:
-
-- `2019-05-30-welcome.md`
-- `2019-05-30-welcome/index.md`
-
-A blog post folder can be convenient to co-locate blog post images:
-
-![Docusaurus Plushie](./docusaurus-plushie-banner.jpeg)
-
-The blog supports tags as well!
-
-**And if you don't want a blog**: just delete this directory, and use `blog: false` in your Docusaurus config.
+This blog will be home to my tutorials and essays. I will predominately be covering tech projects that I have completed, and the mistakes I made along the way. My goal here on the blog is for you to learn something in an efficient, detailed, and concise manner. Understand the costly and time consuming mistakes that I have made so that you can avoid them in your own endeavors.

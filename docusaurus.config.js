@@ -51,7 +51,7 @@ const config = {
         items: [
           {
             type: 'doc',
-            docId: 'intro',
+            docId: 'o-ring',
             position: 'left',
             label: 'Documentation',
           },
@@ -75,8 +75,8 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Documentation',
-                to: '/docs/intro',
+                label: 'O-Ring',
+                to: '/docs/o-ring/',
               },
             ],
           },
@@ -111,7 +111,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyleft 🄯 ${new Date().getFullYear()} GGraycot@gmail.com`,
       },
       prism: {
         theme: lightCodeTheme,

@@ -4,32 +4,29 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Documentation',
+    Svg: require('@site/static/img/undraw_documentation.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Graycot Lab is the home for all of my open source projects. Code, configuration, and instructions are all located here.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: 'Experimentation',
+    Svg: require('@site/static/img/undraw_experiment.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Graycot Lab is my laboratory! Experimental ideals and projects can be found linked throughout the website.
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: 'Blog',
+    Svg: require('@site/static/img/undraw_publish_article.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Whether it be a project tutorial or commentary on a failure, the blog is meant to help you avoid the same mistakes I made!
       </>
     ),
   },
