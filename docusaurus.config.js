@@ -46,7 +46,7 @@ const config = {
         title: 'Graycot Lab',
         logo: {
           alt: 'Graycot Lab Logo',
-          src: 'img/logo.svg',
+          src: 'img/logo.png',
         },
         items: [
           {
