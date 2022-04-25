@@ -7,9 +7,10 @@
   To be a part of the webring, each site has a common navigation bar. It contains links to the previous and next site. By selecting next (or previous) repeatedly, the user will eventually reach the site they started at. This is the origin of the term webring. The select-through route around the ring is usually supplemented by a central site with links to all member sites; this prevents the ring from breaking completely if a member site goes offline. The advantage of a webring is that if the user is interested in the topic on one website, they can quickly connect to another website on the same topic. Webrings usually have a moderator who decides which pages to include in the webring. After approval, webmasters add their pages to the ring by 'linking in' to the ring; this requires adding the necessary HTML or JavaScript widget to their site.
 
 *This explaination was borrowed from [Wikipedia](https://en.wikipedia.org/wiki/Webring)*
+
 ## What is O-Ring?
   
-  O-ring is a template that anyone can use to create their own webring! Simply follow the steps at the end of this page and you will have your own unique webring! 
+  O-ring is a template that anyone can use to create their own webring! Simply follow the steps at the end of this page and you will have your own unique webring!
   
   O-ring is made of two parts:
   
@@ -21,22 +22,25 @@
   *Some HTML and CSS knowledge is required in order to change the appearence of the JavaScript webring's appearence. Alternatively, if you are not comfortable with HTML or CSS, you can use the the HTML webring*
   
 ## How does it work?
- 
- ### JavaScript webring
- 
+
+### JavaScript webring
+
  Membersites of the webring will put **this code:**
+
  ```html
  <div id="ringTarget0000"></div><script src="YOURURL/webring.js" type="module"></script>
  ```
+
  into a webpage's HTML on the website they control.
- 
+
  When a visitor loads a page on a membersite with this script, it will automatically download and run the <a href="#JSRedirect">JavaScript Redirect</a> script hosted from the RingMaster's (you) web server / website.
- 
+
   The script will look at a list of member websites and find the index of the site it is currently running on. The script will then find the previous site in the list, the next site in the list, and a random site in the list. Once the calculations are done, it will insert a snippet of HTML code into the webpage at the location of ringTarget0000 (You will rename this later so it is unique to your webring). The script will also insert a snippet of CSS code to style the HTML and make it look nice.
   
 ### HTML webring
 
-  Membersites of the webring will put **this code:** 
+  Membersites of the webring will put **this code:**
+
   ```html
     <div>
       <a href="https://graycot.com/webring/loop-redirect.html?action=prev"> < </a>
@@ -46,13 +50,14 @@
       <a href="https://graycot.com/webring/loop-redirect.html?action=next"> > </a>
     </div> 
   ```
+
   into a webpage's HTML on the website they control.
   
   When a visitor on a member site clicks one of these links, they will be directed to a webpage that the RingMaster (you) control. The page you control will run the <a href="#HTMLRedirect">HTML Redirect</a> script.
   
-  The script will look at a list of member websites and find the index of the member site that the visitor was on. The script will then find the previous site in the list, the next site in the list, and a random site in the list. Once the calculations are done, it will read the the link after `?action=    ` to determine how and where to redirect the visitor.
+  The script will look at a list of member websites and find the index of the member site that the visitor was on. The script will then find the previous site in the list, the next site in the list, and a random site in the list. Once the calculations are done, it will read the the link after `?action=` to determine how and where to redirect the visitor.
   
-### 
+###
 
 ---
 ---
@@ -65,7 +70,6 @@
 ```
 
 <h2 id="JSRedirect">JavaScript Redirect</h2>
-
 
 ```js
 /* O-Ring v2.0 Copyleft © ALL WRONGS RESERVED © Gray (GGraycot@gmail.com)(https://graystea.neocities.org/)(https://graycot.com/)(discord.gg/invite/JM34yvMaFP).
@@ -302,7 +306,3 @@ function webring(data) {
 ```
 
 ---
-
-## Instructions / How to implement
-
-  First, choose whether you will include only the JavaScript webring, the HTML webring, or Both.
