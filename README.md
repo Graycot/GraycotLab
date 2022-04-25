@@ -2,7 +2,7 @@
 
 Welcome to my laboratory! 
 
-Graycot Lab serves as a home for my:
+[Graycot Lab](https://lab.graycot.com/) serves as a home for my:
 - Documentation
 - Experiments
 - Blog
