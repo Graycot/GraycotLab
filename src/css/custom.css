@@ -15,7 +15,7 @@
 
 /* lighter palette in dark mode. */
 [data-theme='dark'] {
-  --ifm-color-primary: #5f84bd;
+  --ifm-color-primary: #90bcfe;
   --ifm-color-primary-dark: #3453A1;
   --ifm-color-primary-darker: #2243A1;
   --ifm-color-primary-darkest: #0023A1;
