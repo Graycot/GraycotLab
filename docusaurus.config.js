@@ -56,6 +56,7 @@ const config = {
             label: 'Documentation',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
+          {to: '/manifesto', label: 'Manifesto', position: 'left'},
           {
             href: 'https://github.com/Graycot/GraycotLab',
             label: 'GitHub',
