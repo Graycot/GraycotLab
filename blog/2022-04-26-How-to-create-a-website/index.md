@@ -78,7 +78,7 @@ A static website is typically written in two or three languages
 
 :::info
 
-You may notice that I am linking to [**MDN (Mozilla web docs)**](https://developer.mozilla.org/en-US/docs/Web) in most of my links. This is because **MDN is the definitive resource for high quality documentation on HTML, CSS, & JS**. If you have a question about how something in one of these languages work, it will be documented here.
+You may notice that I am linking to [**MDN (Mozilla web docs)**](https://developer.mozilla.org/en-US/docs/Web) in most of my links. This is because **MDN is the definitive resource for high quality documentation on HTML, CSS, & JS**. If you have a question about something in one of these languages, it will be documented here.
 
 :::
 
@@ -143,7 +143,7 @@ First, create a folder. You can place it anywhere you want, but I recommend plac
 
 Inside of VS Code *click* **File > Open Folder >** *Navigate to* `myWebsite` *and open the folder. click* **Select Folder**.
 
-On the left side of the screen in the Explorer, you will find a tab named `myWebsite`. This represents the **root folder** of your project. *Right click* `myWebsite` *and select* **New File**. *Name this file* `index.html` This will be the homepage of our website. It is named `index.html` because that is the standard convention that browsers know will be your homepage.
+On the left side of the screen in the Explorer, you will find a tab named `myWebsite`. This represents the **root folder** of your project. *Right click* `myWebsite` *and select* **New File**. *Name this file* `index.html` This will be the homepage of your website. It is named `index.html` because that is the standard convention that browsers know will refer to the homepage.
 
 Alright, lets put your programming knowledge to the test and add some code to `index.html`!
 
@@ -170,7 +170,7 @@ Alright, lets put your programming knowledge to the test and add some code to `i
 </html>
 ```
 
-### Preview
+#### Preview
 
 ![Preview of HTML Code in browser](1-htmlPreview.PNG)
 
@@ -189,7 +189,7 @@ If you followed **step 4** under [**Tools**](#tools) you do not need to press <k
 
 :::
 
-## Add style
+## CSS
 
 :::danger Notice:
 
