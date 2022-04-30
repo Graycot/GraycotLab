@@ -1,4 +1,8 @@
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 ---
+
 title: How to create a website
 authors: [gray]
 tags: [WebDev, CSS, HTML, Web hosting]
@@ -144,7 +148,9 @@ On the left side of the screen in the Explorer, you will find a tab named `myWeb
 
 Alright, lets put your programming knowledge to the test and add some code to `index.html`!
 
-```html
+### HTML
+
+```html title="index.html"
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -165,9 +171,30 @@ Alright, lets put your programming knowledge to the test and add some code to `i
 </html>
 ```
 
+### Preview
+
+![Preview of HTML Code in browser](1-htmlPreview.PNG)
+
+Awesome, pat yourself on the back because you have your first website! It's not much, but it's a website. To see it in your own browser, save the `index.html` file by clicking the <kbd>Ctrl</kbd> + <kbd>S</kbd> keys. Next, click + <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>L</kbd>.
+
+This should have opened a live preview of `index.html` in your default browser. Make a change to the page and save it. Watch how the preview automatically updates your changes!
+
+:::note
+
+If you followed **step 4** under [**Tools**](#tools) you do not need to press <kbd>Ctrl</kbd> + <kbd>S</kbd> to save the file. The moment you click any window other than VS Code, such as your browser, the file will save.
+
+:::
+:::caution
+
+When in doubt, **always save your files** using <kbd>Ctrl</kbd> + <kbd>S</kbd> to prevent lost work.
+
+:::
+
+## Add style
+
 :::danger Notice:
 
-**This blog article is a work in progress!** Last edited: ***April 29, 2022***
+**This blog article is a work in progress!** Last edited: ***April 30, 2022***
 
 :::
 
