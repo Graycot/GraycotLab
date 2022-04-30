@@ -111,12 +111,62 @@ You need an effective and functional place to write code. With the correct tools
 - [HTML Tag Wrap](https://marketplace.visualstudio.com/items?itemName=bradgashler.htmltagwrap)
 - [Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
 
-:::danger Notice:
+## Learning to code
 
-**This blog article is a work in progress!** Last edited: ***April 26, 2022***
+Listed below are a few fantastic sources for learning to code:
 
-:::
+- **HTML**
+  - [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML) (documentation)
+  - [Codecademy](https://www.codecademy.com/learn/learn-html) (course)
+  - [Codecademy](https://www.codecademy.com/learn/learn-html/modules/learn-html-elements/cheatsheet) (cheatsheet)
+- **CSS**
+  - [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS) (documentation)
+  - [Codeademy](https://www.codecademy.com/learn/learn-css) (course)
+  - [Codecademy](https://www.codecademy.com/learn/learn-css/modules/syntax-and-selectors/cheatsheet) (cheatsheet)
+  - [CSS-Tricks](https://css-tricks.com/) (blog)
+  - [Web Dev Simplified](https://www.youtube.com/c/WebDevSimplified) (Youtube)
+
+:::tip
+
+**I recommend following the [Codecademy](https://www.codecademy.com/) tutorials until you understand the basics**. Then, try try try! Follow your imagination. The more you fail, the faster you will learn. The only way to truly learn to code is to just start coding and learn while you do it! The [**MDN Web Docs**](https://developer.mozilla.org/en-US/) will be your best source for figuring out how things work.
 
 ## Writing code
+
+All of the code you need to get started will be provided here. You are encouraged to modify and add your own code as you feel comfortable with doing so.
+
+First, create a folder. You can place it anywhere you want, but I recommend placing it on your desktop. Name the folder `websiteProjects`. Open the folder and create another folder named `myWebsite`. All of the content of the website you are building will be contained in the `myWebsite` folder. This is known as the **root folder** of your website.
+
+Inside of VS Code *click* **File > Open Folder >** *Navigate to* `myWebsite` *and open the folder. click* **Select Folder**.
+
+On the left side of the screen in the Explorer, you will find a tab named `myWebsite`. This represents the **root folder** of your project. *Right click* `myWebsite` *and select* **New File**. *Name this file* `index.html` This will be the homepage of our website. It is named `index.html` because that is the standard convention that browsers know will be your homepage.
+
+Alright, lets put your programming knowledge to the test and add some code to `index.html`!
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>This is myWebsite!</title>
+  </head>
+  <body>
+    <h1>Hello! Welcome to myWebsite!</h1>
+    <p>This is a paragraph!</p>
+    <ul>
+      <li>List item 1</li>
+      <li>List item 2</li>
+      <li>List item 3</li>
+    </ul>
+  </body>
+</html>
+```
+
+:::danger Notice:
+
+**This blog article is a work in progress!** Last edited: ***April 29, 2022***
+
+:::
 
 ## Uploading to the internet
