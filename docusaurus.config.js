@@ -39,8 +39,11 @@ const config = {
     ],
   ],
 
+  plugins: ['@docusaurus/theme-live-codeblock'],
   themeConfig:
+  
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
+    
     ({
       navbar: {
         title: 'Graycot Lab',
@@ -119,6 +122,7 @@ const config = {
         darkTheme: darkCodeTheme,
       },
     }),
+    
 };
 
 module.exports = config;
