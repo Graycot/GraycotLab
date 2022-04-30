@@ -130,6 +130,8 @@ Listed below are a few fantastic sources for learning to code:
 
 **I recommend following the [Codecademy](https://www.codecademy.com/) tutorials until you understand the basics**. Then, try try try! Follow your imagination. The more you fail, the faster you will learn. The only way to truly learn to code is to just start coding and learn while you do it! The [**MDN Web Docs**](https://developer.mozilla.org/en-US/) will be your best source for figuring out how things work.
 
+:::
+
 ## Writing code
 
 All of the code you need to get started will be provided here. You are encouraged to modify and add your own code as you feel comfortable with doing so.
