@@ -1,12 +1,11 @@
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
-
 ---
-
 title: How to create a website
 authors: [gray]
 tags: [WebDev, CSS, HTML, Web hosting]
 ---
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
 
 Hello! In today's blog entry I will be teaching you how to to create and upload a static website to the internet.
 
@@ -140,7 +139,7 @@ Listed below are a few fantastic sources for learning to code:
 
 All of the code you need to get started will be provided here. You are encouraged to modify and add your own code as you feel comfortable with doing so.
 
-First, create a folder. You can place it anywhere you want, but I recommend placing it on your desktop. Name the folder `websiteProjects`. Open the folder and create another folder named `myWebsite`. All of the content of the website you are building will be contained in the `myWebsite` folder. This is known as the **root folder** of your website.
+First, create a folder. You can place it anywhere you want, but I recommend placing it on your desktop. Name the folder `websiteProjects`. Open the folder and inside of `websiteProjects` create another folder named `myWebsite`. All of the content of the website you are building will be contained in the `myWebsite` folder. This is known as the **root folder** of your website.
 
 Inside of VS Code *click* **File > Open Folder >** *Navigate to* `myWebsite` *and open the folder. click* **Select Folder**.
 
@@ -186,7 +185,7 @@ If you followed **step 4** under [**Tools**](#tools) you do not need to press <k
 :::
 :::caution
 
-When in doubt, **always save your files** using <kbd>Ctrl</kbd> + <kbd>S</kbd> to prevent lost work.
+**When in doubt, always save your files** using <kbd>Ctrl</kbd> + <kbd>S</kbd> to prevent lost work.
 
 :::
 
