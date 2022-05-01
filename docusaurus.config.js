@@ -85,12 +85,8 @@ const config = {
             ],
           },
           {
-            title: 'Social',
+            title: 'Socials',
             items: [
-              {
-                label: 'Personal Site',
-                href: 'https://graystea.neocities.org',
-              },
               {
                 label: 'Discord',
                 href: 'https://discord.gg/JM34yvMaFP',
@@ -98,6 +94,35 @@ const config = {
               {
                 label: 'Mastodon',
                 href: 'https://fosstodon.org/@Graycot',
+              },
+              {
+                label: 'GitHub',
+                href: 'https://github.com/Graycot/GraycotLab',
+              },
+              {
+                label: 'Email',
+                href: 'mailto:GGraycot@gmail.com',
+              },
+            ],
+          },
+          {
+            title: 'Websites',
+            items: [
+              {
+                label: 'Graycot',
+                href: 'https://graycot.com/',
+              },
+              {
+                label: 'Graycot Lab',
+                href: 'https://lab.graycot.com/',
+              },
+              {
+                label: 'Gray\'s List',
+                href: 'https://list.graycot.com/',
+              },
+              {
+                label: 'Gray\'s Tea',
+                href: 'https://graystea.neocities.org/',
               },
             ],
           },
@@ -108,14 +133,11 @@ const config = {
                 label: 'Blog',
                 to: '/blog',
               },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/Graycot/GraycotLab',
-              },
+
             ],
           },
         ],
-        copyright: `Copyleft 🄯 ${new Date().getFullYear()} GGraycot@gmail.com`,
+        // copyright: `Copyleft 🄯 ${new Date().getFullYear()} GGraycot@gmail.com`,
       },
       prism: {
         theme: lightCodeTheme,
