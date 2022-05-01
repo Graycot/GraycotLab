@@ -156,6 +156,8 @@ Alright, lets put your programming knowledge to the test and add some code to `i
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+     // highlight-next-line
+    <link rel="stylesheet" href="./styles.css">
     <title>This is myWebsite!</title>
   </head>
   <body>
@@ -169,6 +171,12 @@ Alright, lets put your programming knowledge to the test and add some code to `i
   </body>
 </html>
 ```
+
+:::info
+
+Notice the highlighted line #7? This will be important in the [**CSS**](#css) section!
+
+:::
 
 #### Preview
 
@@ -191,10 +199,59 @@ If you followed **step 4** under [**Tools**](#tools) you do not need to press <k
 
 ## CSS
 
-:::danger Notice:
+Create a file named `styles.css` inside of the `myWebsite` folder. This should be on the same level as `index.html`. Copy / Paste the following code into `styles.css`
 
-**This blog article is a work in progress!** Last edited: ***April 30, 2022***
+```css
+h1 {
+  color: blue;
+  background-color: #cccccc;
+}
 
-:::
+p {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: monospace ;
+}
+
+ul {
+  border: 1px solid #777777;
+  border-radius: 5px
+}
+
+li {
+  list-style:square;
+  color: green;
+}
+```
+
+### Preview
+
+![Preview of HTML and CSS Code in browser](2-cssPreview.PNG)
+
+Fantastic! Now you are getting the hang of this. Lets revisit the [HTML code from above](#html). Lets look at line 7.
+
+```html
+<link rel="stylesheet" href="./styles.css">
+```
+
+This link **connects the CSS document to the HTML document**. The href part is the file path that points to where the document is located. In this case, both documents are in the same folder. Sometimes you may want to move files to subfolders for organization. Remember to target the file using a [URI file path](https://www.w3schools.com/Html/html_filepaths.asp)
 
 ## Uploading to the internet
+
+Now that you have the basics of a website, an HTML file and a CSS file, lets upload the website to the internet!
+
+1. Create a free account at [Neocities](https://neocities.org/). This is a free host for static websites. In addition to being a host, Neocities is home to a large community of individuals making personal webpages on the Internet. You will make many friends on Neocities during your WebDev journey.
+
+2. Once you are logged in, find the **Edit Site** button.
+
+3. Upload your HTML and CSS documents to the file section.
+
+4. Visit your website at <https://yourName.neocities.org>. The web address to your website is also displayed in the **Edit Site** page.
+
+## Final notes
+
+:::danger Notice:
+
+**This blog article is a work in progress!** Last edited: ***May 1, 2022***
+
+:::
